@@ -12,14 +12,14 @@ import {
 } from "react-router-dom";
 
 export default class App extends Component {
-  
+
   constructor() {
     super();
 
     this.state = {
       mode: "Light",
       progress:0,
-      api_key:process.env.REACT_APP_NEWS_API
+      // api_key:process.env.REACT_APP_NEWS_API
    
     };
   }
@@ -67,11 +67,11 @@ export default class App extends Component {
           </div>
 
           <Routes>
-            <Route path="/" element={<NewsComp api_key={this.state.api_key}  setProgress={this.setProgress} query="science" pageSize={20} />} />
-            <Route path="/cricket" element={<NewsComp api_key={this.state.api_key} setProgress={this.setProgress} query="cricket" pageSize={20} />} />
-            <Route path="/sports" element={<NewsComp api_key={this.state.api_key} setProgress={this.setProgress} query="sports" pageSize={20} />} />
-            <Route path="/weather" element={<NewsComp api_key={this.state.api_key} setProgress={this.setProgress} query="weather" pageSize={20} />} />
-            <Route path="/education" element={<NewsComp api_key={this.state.api_key} setProgress={this.setProgress} query="education" pageSize={20} />} />
+            <Route path="/" element={<NewsComp    setProgress={this.setProgress} query="science" pageSize={20} />} />
+            <Route path="/cricket" element={<NewsComp   setProgress={this.setProgress} query="cricket" pageSize={20} />} />
+            <Route path="/sports" element={<NewsComp   setProgress={this.setProgress} query="sports" pageSize={20} />} />
+            <Route path="/weather" element={<NewsComp   setProgress={this.setProgress} query="weather" pageSize={20} />} />
+            <Route path="/education" element={<NewsComp   setProgress={this.setProgress} query="education" pageSize={20} />} />
 
           </Routes>
         </Router>

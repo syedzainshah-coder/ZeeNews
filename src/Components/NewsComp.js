@@ -48,7 +48,7 @@ export class NewsComp extends Component {
   fetchArticles(query, page) {
     this.setState({ loadingMore: true }); // set loadingMore flag
     this.props.setProgress(0);
-    fetch(`https://newsapi.org/v2/everything?q=${query}&apiKey=${this.props.api_key}&page=${page}`)
+    fetch(`https://newsapi.org/v2/everything?q=${query}&apiKey=4d9e8e0a43174b8b9d4e23cce12bc8da&page=${page}`)
       .then((response)=>{
         this.props.setProgress(50);
           return response.json();
