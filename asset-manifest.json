@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ZeeNews/static/css/main.09a169c3.css",
+    "main.js": "/ZeeNews/static/js/main.5d5169f9.js",
+    "static/js/453.b2157c12.chunk.js": "/ZeeNews/static/js/453.b2157c12.chunk.js",
+    "index.html": "/ZeeNews/index.html",
+    "main.09a169c3.css.map": "/ZeeNews/static/css/main.09a169c3.css.map",
+    "main.5d5169f9.js.map": "/ZeeNews/static/js/main.5d5169f9.js.map",
+    "453.b2157c12.chunk.js.map": "/ZeeNews/static/js/453.b2157c12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09a169c3.css",
+    "static/js/main.5d5169f9.js"
+  ]
+}
